@@ -1,0 +1,19 @@
+public class Main {
+    public static void main(String[] args) {
+        String[][] Name = new String[5][5];
+
+        Name[0][0] = "SASS";
+        Name[0][1] = "Vazgen";
+        Name[0][2] = "ANNA";
+        Name[0][3] = "Vxxx";
+        Name[0][4] = "b";
+        int sum=1;
+        for (int i = 0; i < Name.length; ++i) {
+            for (int k= 0; k < Name[i].length; ++k) {
+System.out.println(sum);
+            }
+
+        }
+
+    }
+}
