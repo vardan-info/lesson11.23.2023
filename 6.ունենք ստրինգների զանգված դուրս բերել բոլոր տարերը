@@ -2,13 +2,23 @@
 // 6.ունենք ստրինգների զանգված դուրս բերել բոլոր տարերը 
 public class Main {
     public static void main(String[] args) {
-                String[] arr = {"boolean", "int", "byte" ,"short" ,"long","double","float"};
-                for (int i = 0; i < arr.length; i++) {
-                    System.out.print(arr[i] + " ");
-                }
+String[][] Name = new String[5][5];
 
-        System.out.println();
+        Name[0][0] = "boolean";
+        Name[0][1] = "byte";
+        Name[0][2] = "short ";
+        Name[0][3] = "int";
+        Name[0][4] = "long";
+        for (int i = 0; i < Name.length; ++i) {
+            for(int j=0; j<Name[i].length; j++){
+                System.out.print(Name[i][j] + " ");
             }
-
+            System.out.println();
 
         }
+
+
+    }
+
+
+}
