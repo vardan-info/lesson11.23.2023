@@ -1,20 +1,19 @@
-           int Array[][]={
+//10.ունենք թվերի զանգված դուրս բերել կենտ ինդեքսով տարերի քանակը:
+        int Array[][]={
                 {1,2,3,4},
                 {1,2,3},
                 {1,2},
         };
 
-        int sum = 1;
-        int a= 5;
+        int count = 1;
         for(int i =0; i < Array.length;i++){
             for(int k=0; k< Array[i].length;k++){
-                if(Array[i][k] % 2 == 0){
-                    sum*=Array[i][k];
+                if(Array[i][k]<3){
+                    count*=i;
+                    count*=k;
                 }
             }
         }
-        System.out.println(sum);
-        System.out.println(2*4*2*2);
+        System.out.println(count);
     }
 }
-
