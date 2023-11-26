@@ -1,4 +1,7 @@
-       int Array[][]= {
+
+public class Main {
+    public static void main(String[] args) {
+               int Array[][]= {
                 {-5,4,3,2},
                 {5,-1,2},
                 {5,-2},
