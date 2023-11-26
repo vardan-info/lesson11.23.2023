@@ -3,9 +3,9 @@
 public class Main {
     public static void main(String[] args) {
         int Array[][]={
-                {1,22,3,14},
-                {1,2,18},
-                {1,12},
+                {1,2,3,4},
+                {31,2,8},
+                {21,112},
         };
 
 
